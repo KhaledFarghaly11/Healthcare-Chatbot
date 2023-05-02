@@ -109,3 +109,17 @@ stories:
     - action: utter_emergency_aid_main
     - intent: dizziness
     - action: utter_emergency_aid_main_dizziness
+
+- story: epilepsy emergency aid
+  steps:
+    - intent: emergency_aid
+    - action: utter_emergency_aid_main
+    - intent: epilepsy
+    - action: utter_emergency_aid_main_epilepsy
+
+- story: fainting emergency aid
+  steps:
+    - intent: emergency_aid
+    - action: utter_emergency_aid_main
+    - intent: fainting
+    - action: utter_emergency_aid_main_fainting

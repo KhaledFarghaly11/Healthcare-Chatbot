@@ -16,6 +16,8 @@ intents:
   - stomach_symptom
   - emergency_aid
   - dizziness
+  - epilepsy
+  - fainting
   - bot_challenge
 
 responses:
@@ -58,10 +60,13 @@ responses:
   utter_poison_response:
   - text: "Following are the remedies for some other causes of Stomach-ache :\n\ Lower Abdomen Pain - 1. Use a heating bag, 2.Reduce your intake of coffee, tea and alcohol as these can make the pain worse. 3.Get plenty of rest.\n\ Vomiting - 1.Eat light, bland foods 2.Avoid fried, greasy, or sweet foods. 3.Eat slowly and eat smaller, more frequent meals.\n\ Loose Motions - 1.Drink ginger juice, 2. Drink lemon and salt water 3. Eat pomegranate"
   utter_emergency_aid_main:
-  - text: "Which type of emergency aid to you want to ask about? Dizziness | fainting"
+  - text: "Which type of emergency aid to you want to ask about? Dizziness | epilepsy | fainting"
   utter_emergency_aid_main_dizziness:
-  - text: "1- Sit down and rest until the dizziness passes. 2. Avoid sudden movements that may worsen the dizziness. 3. Cut down on salt.\n\ Constipation - 1. Drink more water, 2. Increase intake of soluble fibres like oat bran, barley, nuts, seeds as well as some fruits and vegetables 3. Exercise more.\n\ Gas - 1. Sit down during each meal and eat slowly, 2.Avoid soda and other carbonated beverages. 3. Drink plenty of water to stay hydrated. 4. Try deep breathing or relaxation techniques to calm yourself. 5. Get up slowly from a lying or sitting position. 6. Use a cane or walker if needed for balance. 7. Wear comfortable shoes with good support. 8. Avoid bright lights and loud noises that may trigger dizziness. 9.Talk to your doctor about any medications that may be causing dizziness."
-  
+  - text: "1. Sit down during each meal and eat slowly.\n2. Avoid soda and other carbonated beverages.\n3. Drink plenty of water to stay hydrated.\n4. Try deep breathing or relaxation techniques to calm yourself.\n5. Get up slowly from a lying or sitting position.\n6. Use a cane or walker if needed for balance.\n7. Wear comfortable shoes with good support.\n8. Avoid bright lights and loud noises that may trigger dizziness.\n9. Talk to your doctor about any medications that may be causing dizziness."
+  utter_emergency_aid_main_epilepsy:
+  - text: "1. Take medications as prescribed and on schedule.\n2. Get enough sleep and try to establish a regular sleep schedule.\n3. Avoid triggers such as stress, alcohol, and lack of sleep.\n4. Wear a medical alert bracelet or necklace in case of emergencies.\n5. Avoid activities that pose a risk of injury during seizures.\n6. Keep a seizure diary to track and monitor seizure activity.\n7. Learn seizure first aid and share this information with family and friends.\n8. Consider joining a support group for people with epilepsy.\n9. Speak with your doctor about any concerns or changes in your seizure activity.\n10. Consider alternative therapies, such as meditation or yoga, to help manage stress.\n11 .Practice stress-management techniques, such as deep breathing or progressive muscle relaxation."
+  utter_emergency_aid_main_fainting:
+  - text: "1. Stay hydrated by drinking plenty of water and fluids.\n2. Avoid standing for long periods of time, especially in hot environments.\n3. Wear compression stockings or leggings to improve blood flow to the legs.\n4. Avoid sudden changes in position, such as standing up quickly.\n5. Eat regular meals to maintain blood sugar levels.\n6. Avoid alcohol and caffeine, which can contribute to dehydration and fainting.\n7. Practice relaxation techniques, such as deep breathing or meditation, to reduce stress.\n8. Learn to recognize and avoid fainting triggers.\n9. Exercise regularly to improve cardiovascular health.\n10. Consider using a tilt table or other diagnostic tests to identify underlying causes of fainting.\n11. Speak with your doctor about medications or treatments that may help prevent fainting."
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 

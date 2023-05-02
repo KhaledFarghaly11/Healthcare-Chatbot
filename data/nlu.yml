@@ -153,7 +153,47 @@ nlu:
     - experiencing vertigo
     - feeling dizzy
     
-   
+- intent: epilepsy
+  examples: |
+    - epilepsy
+    - seizures
+    - epileptic episodes
+    - convulsions
+    - epilepsy diagnosis
+    - epilepsy treatment
+    - epilepsy medication
+    - epilepsy triggers
+    - epilepsy and pregnancy
+    - first aid for seizures
+    - epilepsy awareness
+    - epilepsy research
+    - epilepsy causes
+    - epilepsy symptoms
+    - types of epilepsy
+    - focal seizures
+    - absence seizures
+    - tonic-clonic seizures
+    - myoclonic seizures
+    - status epilepticus
+    - epilepsy surgery
+    - ketogenic diet for epilepsy
+    - living with epilepsy
+
+- intent: fainting
+  examples: |
+    - fainting
+    - syncope
+    - passing out
+    - loss of consciousness
+    - vasovagal syncope
+    - orthostatic hypotension
+    - fainting causes
+    - fainting triggers
+    - fainting diagnosis
+    - first aid for fainting
+    - fainting prevention
+    - fainting treatment
+    - fainting and pregnancy
 
 - intent: bot_challenge
   examples: |
